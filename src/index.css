@@ -7,7 +7,48 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.counter-container {
+  display: flex;
+  width: 500px;
+  border: 5px solid black;
+}
+
+.counter {
+  font-weight: bold;
+  margin: 1em auto;
+}
+
+.count {
+  font-size: 8em;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: white;
+  border: 5px solid black;
+  color: black;
+  margin: 0 1em;
+  padding: 1em;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
 }
